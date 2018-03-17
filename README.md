@@ -11,11 +11,11 @@ For detailed instructions on how to do that, following articles can be referred 
 
 [Android Platform Guide by Cordova(Official Guide)](https://cordova.apache.org/docs/en/latest/guide/platforms/android/) or
 
-[Environment setting tutorial Ionic + Android on windows (Blog post)] (http://www.tiagoporto.com/blog/environment-setting-tutorial-ionic-android-on-windows/)
+[Environment setting tutorial Ionic + Android on windows (Blog post)](http://www.tiagoporto.com/blog/environment-setting-tutorial-ionic-android-on-windows/)
 
-Open the terminal/command-line.
+Once the above required dependencies are successfully installed, open the terminal/command-line and then : 
 
-First install **Ionic** and **Cordova**.
+First install **Cordova** and **Ionic**.
 
 ```
 $  npm install -g cordova
