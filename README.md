@@ -3,6 +3,10 @@ The given repository is an app built in **Ionic framework** that allows the user
 
 The [Github API](https://developer.github.com/v3/) is used to fetch the search results.
 
+**App Screenshots**
+
+<img src="SCREENSHOTS/SearchPage.png" width="200"> <img src="SCREENSHOTS/SearchResults1.png" width="200"> <img src="SCREENSHOTS/SearchResults2.png" width="200">
+
 ## Project Setup
 
 The following project requires **Node.Js** and **NPM** to be pre-installed and the necessary path variables for **Node** and **NPM** should also be set-up already.
