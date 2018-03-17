@@ -1,6 +1,8 @@
 # Github-Profile-Searcher-Ionic-App
 The given repository is an app built in **Ionic framework** that allows the user to search anyone's **Github Profile Info** by using his **username**.
 
+The [Github API](https://developer.github.com/v3/) is used to fetch the search results.
+
 ## Project Setup
 
 The following project requires **Node.Js** and **NPM** to be pre-installed and the necessary path variables for **Node** and **NPM** should also be set-up already.
