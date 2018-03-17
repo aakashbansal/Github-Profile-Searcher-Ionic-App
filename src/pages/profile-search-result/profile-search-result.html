@@ -1,0 +1,56 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Profile Search Result</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item *ngIf="!isUserValid" no-lines>
+    <ion-label text-wrap>
+      Error: Either API Limit exceeded or the specified user does not exist !!
+    </ion-label>
+  </ion-item>
+
+  <ion-card *ngIf="user">
+
+    <ion-card-header>
+      <ion-card-title>{{user.name}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item no-lines>
+        <ion-avatar item-left>
+          <img src="{{user?.avatar_url}}">
+        </ion-avatar>
+
+        <h3 padding-top>{{user?.login}}</h3>
+        <p text-wrap>{{user?.location}}</p>
+        <p text-wrap padding>{{user?.bio}}</p>
+      </ion-item>
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-item padding no-lines></ion-item>
+
+  <div *ngFor="let repo of repos">
+
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title text-wrap>{{repo.name}}</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        {{repo.description}}
+      </ion-card-content>
+
+    </ion-card>
+
+  </div>
+
+</ion-content>
