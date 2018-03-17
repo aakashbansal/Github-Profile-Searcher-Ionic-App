@@ -37,6 +37,8 @@ $ npm install
 
 This sets-up the project locally on your machine.
 
+## Running the App
+
 To run the app in **Browser** :
 ```
 $ ionic lab
